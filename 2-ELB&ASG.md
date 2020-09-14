@@ -1,10 +1,10 @@
-## AWS fundamentals
+## 1. AWS fundamentals
 - Scalability means that an application / system can handle greater loads by adapting.
 - High Availability means running your application / system in at least 2 data centers.
 - Vertical Scaling: Increase instance size (= scale up)
 - Horizontal Scaling: Increase number of instances (= scale out)
 
-## ELB
+## 2. ELB
 - ELB provides Health Checks to know if EC2 instances are avaliable
 - ELB has 3 Types
   - Classic Load Balancer(v1): HTTP, HTTPS, TCP
@@ -21,7 +21,7 @@
 - TLS refers to Transport Layer Security, which is a newer version.
 - Nowadays, TLS certificates are mainy used, but people still refer as SSL.
 
-##ASG
+## 3. ASG
 - ASG is for scaling in/out to match traffic loads.
 - ASG has following attributes
   - AMI + Instance Type / EC2 User Data / EBS Volumes / Security Groups / SSH Key Pair
