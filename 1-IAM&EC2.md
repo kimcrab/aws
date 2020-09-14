@@ -1,4 +1,4 @@
-## 1. Basic
+## 1. AWS fundamentals
  - AWS region is a cluster of data centers.
  - Availability Zone is one or more descrete data centers.
 
